@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `My Blog`,
+    position: `Engenheiro de Software | ReactJS`,
     description: `Um blog sobre desenvolvimento web, data science e muito mais`,
-    author: `@Pedro Paulo Furtado`,
+    author: `Pedro Paulo Furtado`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
