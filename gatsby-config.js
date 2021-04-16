@@ -6,6 +6,7 @@ module.exports = {
     author: `Pedro Paulo Furtado`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
