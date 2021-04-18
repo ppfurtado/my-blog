@@ -1,6 +1,5 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import Profile from "../Profile"
 
 import styled from "styled-components"
 import GlobalStyle from "../../styles/global"
