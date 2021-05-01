@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import styled from "styled-components"
 import GlobalStyle from "../../styles/global"
 import Sidebar from "../Sidebar"
+import MenuBar from "../MenuBar"
 
 const LayoutWrapper = styled.section`
   display: flex;
@@ -21,6 +22,7 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <Sidebar />
       <LayoutMain> {children} </LayoutMain>
+      <MenuBar />
     </LayoutWrapper>
   )
 }
