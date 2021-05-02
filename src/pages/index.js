@@ -4,11 +4,16 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import About from "../pages/about"
+import PostItem from "../components/PostItem"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Home</h1>
+    <PostItem />
+    <PostItem />
+    <PostItem />
+    <PostItem />
+    <PostItem />
   </Layout>
 )
 
